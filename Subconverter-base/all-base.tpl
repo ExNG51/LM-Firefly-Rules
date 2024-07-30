@@ -49,11 +49,7 @@ dns:
   ipv6: true
 {% endif %}
 {% if request.clash.dns == "meta-tun" %}
-find-process-mode: strict
 ipv6: true
-tcp-concurrent: true
-global-client-fingerprint: chrome
-keep-alive-interval: 15
 tun:
   enable: true
   stack: mixed # system/gvisor/mixed
@@ -76,24 +72,6 @@ tun:
     - "8000::/1"
   endpoint-independent-nat: false
 #interface-name: WLAN
-sniffer:
-  enable: true
-  force-dns-mapping: true
-  parse-pure-ip: true
-  override-destination: true
-  sniff:
-    QUIC:
-      ports: [443, 8443]
-    TLS:
-      ports: [443, 8443]
-    HTTP:
-      ports: [80, 8080-8880]
-      override-destination: true
-#  force-domain:
-#    - +.v2ex.com
-  skip-domain:
-    - "Mijia Cloud"
-    - +.mijia.tech
 dns:
   cache-algorithm: arc
   enable: true
@@ -165,9 +143,12 @@ dns:
     - '*.ntp.org.cn'
     - '+.pool.ntp.org'
     - 'time1.cloud.tencent.com'
-    ## QQ Quick Login
+    # === QQ Quick Login ===
     - 'localhost.ptlogin2.qq.com'
     - 'localhost.sec.qq.com'
+    # === MiJia ===
+    - 'Mijia Cloud'
+    - '+.mijia.tech'
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
@@ -219,6 +200,28 @@ dns:
       - 127.0.0.0/8
       - 240.0.0.0/4
       - 255.255.255.255/32
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    QUIC:
+      ports: [443, 8443]
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+#  force-domain:
+#    - +.v2ex.com
+  skip-domain:
+    - "Mijia Cloud"
+    - +.mijia.tech
+find-process-mode: strict
+tcp-concurrent: true
+global-client-fingerprint: chrome
+keep-alive-interval: 15
 
 {% endif %}
 {% if request.target == "surge" %}
