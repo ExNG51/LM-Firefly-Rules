@@ -48,5 +48,5 @@ jobs:
           cd fork_repo
           git remote add upstream ../upstream_repo
           git fetch upstream || (echo "Failed to fetch from upstream repository. The repository or branch may have been deleted." && exit 1)
-          git merge -X theirs upstream/master --no-edit || (echo "Failed to merge from upstream repository. Manual intervention may be required." && exit 1)
+          git merge -X theirs upstream/master --allow-unrelated-histories --no-edit || (echo "Failed to merge from upstream repository. Manual intervention may be required." && exit 1)
           git push origin master || (echo "Failed to push to fork repository." && exit 1)
