@@ -200,6 +200,7 @@ dns:
       - 127.0.0.0/8
       - 240.0.0.0/4
       - 255.255.255.255/32
+  use-system-hosts: false
 sniffer:
   enable: true
   force-dns-mapping: true
