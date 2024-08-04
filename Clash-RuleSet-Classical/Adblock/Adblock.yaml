@@ -709,7 +709,6 @@ payload:
   ## > 安天移动安全-ads
   - DOMAIN-SUFFIX,ixav-cse.avlyun.com
   - DOMAIN-SUFFIX,log.avlyun.com
-  - DOMAIN-SUFFIX,miav-cse.avlyun.com
   - DOMAIN-SUFFIX,miui-fxcse.avlyun.com
   - DOMAIN-SUFFIX,sdkconf.avlyun.com
   ## > Apple-ads

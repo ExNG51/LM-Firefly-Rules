@@ -8263,6 +8263,7 @@ payload:
   - DOMAIN-SUFFIX,xlaomi.net
   ## >> 天星数科
   - DOMAIN-SUFFIX,airstar.com
+  - DOMAIN-SUFFIX,airstarfinance.net
   - DOMAIN-SUFFIX,mipay.com
   ## >> 彩米
   - DOMAIN-SUFFIX,xiaomicp.com
