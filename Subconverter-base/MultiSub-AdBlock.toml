@@ -1338,7 +1338,7 @@ tolerance = 20
 name = "🇲🇴 澳门-SUB1"
 type = "url-test"
 disable_udp = false
-rule = ["!!GROUPID=0!!(^🇹🇼.*(?!▷|回|转))", "[]REJECT"]
+rule = ["!!GROUPID=0!!(^🇲🇴.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -1348,7 +1348,7 @@ lazy = true
 name = "🇲🇴 澳门-SUB2"
 type = "url-test"
 disable_udp = false
-rule = ["!!GROUPID=1!!(^🇹🇼.*(?!▷|回|转))", "[]REJECT"]
+rule = ["!!GROUPID=1!!(^🇲🇴.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
@@ -1358,7 +1358,7 @@ lazy = true
 name = "🇲🇴 澳门-SUB3"
 type = "url-test"
 disable_udp = false
-rule = ["!!GROUPID=2!!(^🇹🇼.*(?!▷|回|转))", "[]REJECT"]
+rule = ["!!GROUPID=2!!(^🇲🇴.*(?!▷|回|转))", "[]REJECT"]
 url = "http://connect.rom.miui.com/generate_204"
 interval = 180
 tolerance = 20
