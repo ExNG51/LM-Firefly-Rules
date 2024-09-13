@@ -148,6 +148,7 @@ dns:
     # === MiJia ===
     - 'Mijia Cloud'
     - '+.mijia.tech'
+  fake-ip-filter-mode: blacklist
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
