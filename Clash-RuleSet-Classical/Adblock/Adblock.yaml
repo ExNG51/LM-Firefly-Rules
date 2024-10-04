@@ -5309,12 +5309,9 @@ payload:
   ## > 小米-ads
   - DOMAIN-SUFFIX,adv.sec.intl.miui.com
   - DOMAIN-SUFFIX,adv.sec.miui.com
-  - DOMAIN-SUFFIX,log.avlyun.sec.intl.miui.com
-  - DOMAIN-SUFFIX,logupdate.avlyun.sec.miui.com
   - DOMAIN-SUFFIX,metok.sys.miui.com
   - DOMAIN-SUFFIX,tracking.miui.com
   - DOMAIN-SUFFIX,tracking.rus.miui.com
-  - DOMAIN-SUFFIX,update.avlyun.sec.miui.com
   - DOMAIN-SUFFIX,a.market.xiaomi.com
   - DOMAIN-SUFFIX,a0.app.xiaomi.com
   - DOMAIN-SUFFIX,ad.intl.xiaomi.com
@@ -5330,8 +5327,6 @@ payload:
   - DOMAIN-SUFFIX,secode2.hd.xiaomi.com
   - DOMAIN-SUFFIX,shoes.app-xae.xiaomi.com
   - DOMAIN-SUFFIX,ssp.xiaomi.com
-  - DOMAIN-SUFFIX,tracker.ai.xiaomi.com
-  - DOMAIN-SUFFIX,tz.sec.xiaomi.com
   - DOMAIN-SUFFIX,wtradv.market.xiaomi.com
   - DOMAIN-SUFFIX,zx.game.xiaomi.com
   - DOMAIN-SUFFIX,miui.hdfdm.com
