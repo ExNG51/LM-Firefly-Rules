@@ -1,5 +1,5 @@
-payload:
-  ## > Sling
+﻿payload:
+  ## Sling
   - DOMAIN-SUFFIX,dishworld.com
   - DOMAIN-SUFFIX,slinginternational.com
   - DOMAIN-SUFFIX,sling.com

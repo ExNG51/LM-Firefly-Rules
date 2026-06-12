@@ -1,6 +1,5 @@
-payload:
+﻿payload:
   ## > PayPal
-  - USER-AGENT,PayPal*
   ## >> Braintree
   - DOMAIN-SUFFIX,braintreegateway.com
   - DOMAIN-SUFFIX,braintreegateway.tv

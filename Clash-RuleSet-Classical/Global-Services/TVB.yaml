@@ -1,4 +1,4 @@
-payload:
+﻿payload:
   ## > TVB
   - DOMAIN-SUFFIX,bigbigchannel.com.hk
   - DOMAIN-SUFFIX,bigbigshop.com
@@ -11,7 +11,7 @@ payload:
   - DOMAIN-SUFFIX,tvbusa.com
   - DOMAIN-SUFFIX,tvbweekly.com
   - DOMAIN-SUFFIX,tvmedia.net.au
-  ## >> EncoreTVB
+  ## >> encoreTVB
   - DOMAIN-SUFFIX,encoretvb.com
   - DOMAIN-SUFFIX,content.jwplatform.com
   - DOMAIN-SUFFIX,videos-f.jwpsrv.com
