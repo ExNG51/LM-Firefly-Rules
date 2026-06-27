@@ -16,7 +16,7 @@ jobs:
     env:
       GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Push update to subconverter
         if: ${{ github.ref == 'refs/heads/master' }}
         uses: actions/github-script@v9
