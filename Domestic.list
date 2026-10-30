@@ -4932,7 +4932,6 @@ IP-CIDR,123.66.30.0/24,no-resolve
 IP-CIDR,123.128.14.0/24,no-resolve
 IP-CIDR,124.124.232.0/24,no-resolve
 IP-CIDR,124.232.186.0/24,no-resolve
-IP-CIDR,125.64.107.13/11,no-resolve
 IP-CIDR,125.88.149.0/24,no-resolve
 IP-CIDR,139.215.187.0/24,no-resolve
 IP-CIDR,153.99.235.0/24,no-resolve
@@ -7010,11 +7009,22 @@ DOMAIN-SUFFIX,alcatelmobile.com
 ## >> Blackberry
 DOMAIN-SUFFIX,blackberry.com
 ## > TigerFintech 老虎证券
+DOMAIN-SUFFIX,ftfast.com
+DOMAIN-SUFFIX,iotaskyt.com
+DOMAIN-SUFFIX,iotaskyty.com
 DOMAIN-SUFFIX,itiger.com
+DOMAIN-SUFFIX,itigergrowtha.com
+DOMAIN-SUFFIX,itigerup.com
 DOMAIN-SUFFIX,laohu8.com
+DOMAIN-SUFFIX,play-analytics.com
+DOMAIN-SUFFIX,skytigris.cn
+DOMAIN-SUFFIX,tbdesk.com
 DOMAIN-SUFFIX,tigerbbs.cn
 DOMAIN-SUFFIX,tigerbbs.com
+DOMAIN-SUFFIX,tigerbrokers.net
 DOMAIN-SUFFIX,tigerfintech.com
+DOMAIN-SUFFIX,tigertcp.cn
+DOMAIN-SUFFIX,tigr.link
 DOMAIN-SUFFIX,xiaohu8.com
 DOMAIN-SUFFIX,zhijianfengyi.cn
 DOMAIN-SUFFIX,zhijianfengyi.com
@@ -10311,6 +10321,18 @@ DOMAIN-SUFFIX,lsttnews.com
 DOMAIN-SUFFIX,newsapp01.com
 DOMAIN-SUFFIX,ttnea.com
 DOMAIN-SUFFIX,xiaoyiads.com
+## > 喔影网络
+DOMAIN-SUFFIX,alltuu.cn
+DOMAIN-SUFFIX,alltuu.com
+DOMAIN-SUFFIX,guituu.com
+DOMAIN-SUFFIX,piufoto.com
+DOMAIN-SUFFIX,piuphoto.com
+DOMAIN-SUFFIX,showmephoto.com
+DOMAIN-SUFFIX,singaphoto.com
+DOMAIN-SUFFIX,tupianzhibo.com
+DOMAIN-SUFFIX,vphant.cn
+DOMAIN-SUFFIX,vphant.com
+DOMAIN-SUFFIX,xxalbum.com
 ## > 我来
 DOMAIN-SUFFIX,wol.tv
 DOMAIN-SUFFIX,wolai.com
@@ -10426,6 +10448,7 @@ DOMAIN-SUFFIX,duokanbox.com
 ## >> 小米路由器
 DOMAIN-SUFFIX,miwifi.com
 ## >> 小米汽车
+DOMAIN-SUFFIX,xiaomiauto.com
 DOMAIN-SUFFIX,xiaomiev.com
 ## >> 小米生态云
 DOMAIN-SUFFIX,mi-ae.cn
@@ -11164,6 +11187,8 @@ DOMAIN-SUFFIX,chinamobileltd.com
 DOMAIN-SUFFIX,warmchina121.com
 DOMAIN-SUFFIX,monternet.com
 DOMAIN-SUFFIX,cmccb2b.com
+DOMAIN-SUFFIX,cmecloud.cn
+DOMAIN-SUFFIX,ecpan.cn
 # >> 咪咕
 DOMAIN-SUFFIX,lovev.com
 DOMAIN-SUFFIX,lovev.cn
@@ -11510,6 +11535,12 @@ DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,zijiecdn.com
 DOMAIN-SUFFIX,zijiecdn.net
 DOMAIN-SUFFIX,zjcdn.com
+## >> CapCut
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-SUFFIX,capcutapi.us
+DOMAIN-SUFFIX,capcutcdn-us.com
+DOMAIN-SUFFIX,capcutstatic.com
 ## >> TikTok
 USER-AGENT,TikTok*
 PROCESS-NAME,com.zhiliaoapp.musically
@@ -11707,20 +11738,46 @@ DOMAIN-SUFFIX,larksuite.com
 DOMAIN-SUFFIX,larksuitecdn.com
 ## >> 脸萌Faceu
 DOMAIN-SUFFIX,2333333333333.com
+DOMAIN-SUFFIX,blkcan.cn
+DOMAIN-SUFFIX,blkcan.com
 DOMAIN-SUFFIX,bqtalk.com
+DOMAIN-SUFFIX,dreamina.cn
+DOMAIN-SUFFIX,editorjianying.com
+DOMAIN-SUFFIX,editorjianyingk.com
 DOMAIN-SUFFIX,faceu.com
 DOMAIN-SUFFIX,faceu.com.cn
 DOMAIN-SUFFIX,faceu.mobi
 DOMAIN-SUFFIX,faceu.net
+DOMAIN-SUFFIX,heiguantou.cn
+DOMAIN-SUFFIX,hey-can.cn
+DOMAIN-SUFFIX,hey-can.com
+DOMAIN-SUFFIX,hey-creator.cn
+DOMAIN-SUFFIX,hey-creator.com
 DOMAIN-SUFFIX,heycan.com
 # >> qmoji
 DOMAIN-SUFFIX,qmoji.mobi
 DOMAIN-SUFFIX,qmoji.net
+# >> 剪映
+DOMAIN-SUFFIX,capcut.cn
+DOMAIN-SUFFIX,jianying.com
+DOMAIN-SUFFIX,jianyingmicro.com
+DOMAIN-SUFFIX,jimeng.cn
+DOMAIN-SUFFIX,jimeng.com
+DOMAIN-SUFFIX,jimeng.com.cn
+DOMAIN-SUFFIX,jimengai.com.cn
+DOMAIN-SUFFIX,retouchpics.com
+DOMAIN-SUFFIX,vlabimg.com
+DOMAIN-SUFFIX,vlabstatic.com
+DOMAIN-SUFFIX,vlabvod.com
+DOMAIN-SUFFIX,xingtupics.com
 # >> 轻颜相机
+DOMAIN-SUFFIX,ulikeapi.com
 DOMAIN-SUFFIX,ulikecam.cn
 DOMAIN-SUFFIX,ulikecam.com
 DOMAIN-SUFFIX,ulikecam.mobi
 DOMAIN-SUFFIX,ulikecam.net
+DOMAIN-SUFFIX,ulikepic.com
+DOMAIN-SUFFIX,ulikestatic.com
 ## >> 皮皮虾
 DOMAIN-SUFFIX,pipix.com
 ## >> 曲奇剪辑

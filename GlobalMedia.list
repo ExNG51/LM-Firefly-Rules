@@ -1648,12 +1648,13 @@ DOMAIN,rthktv32-live.akamaized.net
 ## > Sky GO
 DOMAIN-SUFFIX,2cnt.net
 DOMAIN-SUFFIX,epgsky.com
-DOMAIN-SUFFIX,eu-1.xcal.tv
+DOMAIN-SUFFIX,eu.ems.eos.comcast.com
 DOMAIN-SUFFIX,sky.com
 DOMAIN-SUFFIX,skyanywhere.com
 DOMAIN-SUFFIX,skycdp.com
 DOMAIN-SUFFIX,skygo.co.nz
 DOMAIN-SUFFIX,skysports.com
+DOMAIN-SUFFIX,xcal.tv
 DOMAIN-SUFFIX,xmidt-eu.comcast.net
 DOMAIN,7d1732c7c34624df5f1270e29cf8d1ea78695fd5.cws.conviva.com
 DOMAIN,clientstream.launchdarkly.com
@@ -1724,6 +1725,12 @@ DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,ttwebview.com
+## >> CapCut
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-SUFFIX,capcutapi.us
+DOMAIN-SUFFIX,capcutcdn-us.com
+DOMAIN-SUFFIX,capcutstatic.com
 ## > TVB
 DOMAIN-SUFFIX,bigbigchannel.com.hk
 DOMAIN-SUFFIX,bigbigshop.com
@@ -1852,8 +1859,9 @@ PROCESS-NAME,com.tencent.qqlivei18n
 PROCESS-NAME,com.tencent.qqlivei18n.us
 DOMAIN-SUFFIX,wetv.vip
 DOMAIN-SUFFIX,wetvinfo.com
-DOMAIN-SUFFIX,v.smtcdns.com
-DOMAIN-SUFFIX,v.smtcdns.net
+#DOMAIN-SUFFIX,v.smtcdns.com
+#DOMAIN-SUFFIX,v.smtcdns.net
+DOMAIN-SUFFIX,vv.video.qq.com
 ## >> iflix
 DOMAIN-SUFFIX,iflix.com
 DOMAIN-SUFFIX,iflix-images.akamaized.net

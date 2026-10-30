@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "publisherVersion": 1,
+  "source": {
+    "repository": "ExNG51/LM-Firefly-Rules",
+    "commit": "cf4a1aeba35867401ee92bf44fb3a246aed2f497",
+    "tree": "aac3e157978e6481700b30699d8b81df407fa375"
+  },
+  "upstream": "LM-Firefly/Rules",
+  "rulePaths": [
+    "Domestic.list",
+    "GlobalMedia.list",
+    "PROXY.list",
+    "Special/DMCA-Sensitive.list",
+    "Special/NTP-Service.list"
+  ],
+  "companionPaths": [
+    "readme.md"
+  ],
+  "files": [
+    {
+      "path": "Domestic.list",
+      "mode": "100644",
+      "blob": "fd44b0d77b09ed6e6582d930fba2fbbf54313b90",
+      "bytes": 380882
+    },
+    {
+      "path": "GlobalMedia.list",
+      "mode": "100644",
+      "blob": "a7517aa6b61882ab0f839cee68913498cd1c53de",
+      "bytes": 62853
+    },
+    {
+      "path": "PROXY.list",
+      "mode": "100644",
+      "blob": "5cdd6b3d87b01e7c1cfbb5a1dbd806301e43ea06",
+      "bytes": 480126
+    },
+    {
+      "path": "Special/DMCA-Sensitive.list",
+      "mode": "100644",
+      "blob": "19fcf5b4d030a5392bf51b7d1f7e7129b232e853",
+      "bytes": 36073
+    },
+    {
+      "path": "Special/NTP-Service.list",
+      "mode": "100644",
+      "blob": "19d5d9dde1f330adb221486a61b210533d80098e",
+      "bytes": 3498
+    },
+    {
+      "path": "readme.md",
+      "mode": "100644",
+      "blob": "ec3c2208173a447bc4d6142ae2d8e98d425d6a69",
+      "bytes": 5628
+    }
+  ],
+  "selection": "Original source blobs selected without modification."
+}
